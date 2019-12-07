@@ -13,4 +13,7 @@ public class EdgeInfo {
     int to;          // destination of edge
 
 
+    public boolean compareTo(EdgeInfo e){
+        return this.to == e.to && this.from == e.from;
+    }
 }
